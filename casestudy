@@ -1,0 +1,41 @@
+#Beallabeat Case Study
+
+###Hi, my name is Akeem Roberts and this case study is one of my capstone projects for completion of the Google Data Analytics Certifice. I will be following the ask, prepare, process, analyze, share, and act steps of data analysis.
+##Introduction
+
+###Bellabeat is a high-tech company founded by Urska Srsen and Sandon Mur that focuses on health related smart products. Srsen wants to know how consumers are using non-Bellabeat smart devices to track their health. I'll be using the following questions as a guideline to answer her question:
+
+    What are some trends in smart device usage?
+    How could these trends apply to Bellabeat's customers?
+    How could these trends help influence Bellabeat's marketing strategies?
+
+##Ask
+##Business Task
+
+###To analyze data from non-BellaBeat devices and provide guidance to leadership on possible marketing strategies.
+Stakeholders
+
+###The stakeholders of this analysis are the following:
+
+    Urska Srsen - CCO of Bellabeat
+    Sando Mur - Bellabeat cofounder
+    Bellabeat Marketing Analytics team
+
+Prepare
+
+I begun by downloading the data and organizing it into a folder that is easily accessible by me, but secured on my PC. I then uploaded the data to Google BigQuery to begin cleaning the data.
+Process
+Tools Used
+
+To conduct my data analysis, I chose to work with Google BigQuery to first clean the data as it can handle large amounts of data quickly. I then used R Programming to create visualization making use of the ggplot2 package.
+Data Used
+
+I used data from the FitBit Fitness Tracker dataset from Kaggle https://www.kaggle.com/datasets/arashnic/fitbit. I then chose the following CSVs analyze for the case study:
+
+    daily_calories.csv
+    daily_steps.csv
+    sleep_day.csv
+    weight_log.csv I chose these csv files to analyze the correlation between FitBit users weight, daily steps, sleep, and calorie intake.
+    Cleaning and Manipulation
+    I first begun by cleaning the data in daily_calories. I noticed some rows had 0 calories for the day so removed those values from the data.
+
